@@ -1,0 +1,16 @@
+{
+  "name": "Time Warner Media Asset",
+  "description": "Structure of a Time Warner / WarnerMedia media property",
+  "fields": [
+    {"name": "id", "type": "string", "required": true, "description": "Asset ID"},
+    {"name": "title", "type": "string", "required": true, "description": "Asset title"},
+    {"name": "asset_type", "type": "string", "required": true, "description": "Type: series, movie, channel, etc."},
+    {"name": "brand", "type": "string", "required": false, "description": "Time Warner brand"},
+    {"name": "genre", "type": "array<string>", "required": false, "description": "Content genres"},
+    {"name": "release_year", "type": "integer", "required": false, "description": "Release year"},
+    {"name": "rating", "type": "string", "required": false, "description": "Content rating"},
+    {"name": "description", "type": "string", "required": false, "description": "Synopsis"},
+    {"name": "duration_minutes", "type": "integer", "required": false, "description": "Duration in minutes"},
+    {"name": "streaming_available", "type": "boolean", "required": false, "description": "Streaming availability"}
+  ]
+}

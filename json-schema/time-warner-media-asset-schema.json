@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/time-warner/main/json-schema/time-warner-media-asset-schema.json",
+  "title": "Time Warner Media Asset",
+  "description": "Schema representing a media asset or content property in the Time Warner / WarnerMedia portfolio",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the media asset"
+    },
+    "title": {
+      "type": "string",
+      "description": "Title of the media asset"
+    },
+    "asset_type": {
+      "type": "string",
+      "enum": ["series", "movie", "documentary", "news", "sports", "channel", "franchise"],
+      "description": "Type of media asset"
+    },
+    "brand": {
+      "type": "string",
+      "enum": ["HBO", "CNN", "Turner", "Warner Bros.", "DC Comics", "Cartoon Network", "TNT", "TBS", "TruTV", "TCM"],
+      "description": "Time Warner brand the asset belongs to"
+    },
+    "genre": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Content genres"
+    },
+    "release_year": {
+      "type": "integer",
+      "description": "Year of original release"
+    },
+    "rating": {
+      "type": "string",
+      "description": "Content rating (e.g., TV-MA, PG-13)"
+    },
+    "description": {
+      "type": "string",
+      "description": "Synopsis or description of the media asset"
+    },
+    "duration_minutes": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Duration in minutes"
+    },
+    "languages": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Available languages"
+    },
+    "streaming_available": {
+      "type": "boolean",
+      "description": "Whether available for streaming"
+    }
+  },
+  "required": ["id", "title", "asset_type"]
+}

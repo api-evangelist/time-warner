@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "tw": "https://en.wikipedia.org/wiki/Time_Warner#",
+    "asset_type": "tw:assetType",
+    "brand": "publisher",
+    "release_year": "datePublished",
+    "duration_minutes": "duration",
+    "streaming_available": "tw:streamingAvailable",
+    "rating": "contentRating",
+    "genre": "genre",
+    "languages": "inLanguage",
+    "TimeWarnerMediaAsset": "MediaObject",
+    "TimeWarnerChannel": "BroadcastChannel",
+    "TimeWarnerSeries": "TVSeries",
+    "TimeWarnerMovie": "Movie"
+  }
+}

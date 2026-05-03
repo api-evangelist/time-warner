@@ -1,0 +1,102 @@
+vocabulary:
+  name: Time Warner Vocabulary
+  description: >-
+    Taxonomy and vocabulary for Time Warner Inc. and its successor entities
+    WarnerMedia and Warner Bros. Discovery, covering media, entertainment, and
+    broadcast industry concepts.
+  version: "2026-05-03"
+  terms:
+    - term: Time Warner
+      definition: >-
+        American multinational mass media and entertainment conglomerate
+        (1990-2018), formed through the merger of Time Inc. and Warner
+        Communications. Major brands included HBO, CNN, Turner, and Warner Bros.
+      category: Company
+      tags: [Company, Media, Fortune 500]
+    - term: WarnerMedia
+      definition: >-
+        The successor to Time Warner Inc. following its acquisition by AT&T in
+        2018. Included HBO, Warner Bros., CNN, and Turner brands. Renamed after
+        spinning off from AT&T in 2022 to merge with Discovery.
+      category: Company
+      tags: [Company, Successor]
+    - term: Warner Bros. Discovery
+      definition: >-
+        Media and entertainment company formed in 2022 through the merger of
+        WarnerMedia (spun off from AT&T) and Discovery Inc. Current owner of
+        HBO, CNN, Warner Bros., DC Comics, and Discovery brands.
+      category: Company
+      tags: [Company, Successor, Current]
+    - term: HBO
+      definition: >-
+        Home Box Office, a premium cable and streaming television network known
+        for original programming. Part of Time Warner; now part of Warner Bros.
+        Discovery and available through the Max streaming service.
+      category: Brand
+      tags: [Brand, Television, Streaming]
+    - term: CNN
+      definition: >-
+        Cable News Network, a 24-hour news channel launched in 1980 by Ted
+        Turner. Became part of Time Warner through Turner Broadcasting
+        acquisition; now part of Warner Bros. Discovery.
+      category: Brand
+      tags: [Brand, News, Television]
+    - term: Turner Broadcasting
+      definition: >-
+        Media company founded by Ted Turner, acquired by Time Warner in 1996.
+        Included CNN, TBS, TNT, Cartoon Network, and Turner Classic Movies.
+      category: Brand
+      tags: [Brand, Television, Media]
+    - term: Warner Bros.
+      definition: >-
+        Major American film and television studio, one of the oldest and most
+        prominent entertainment studios. Part of Time Warner and now Warner
+        Bros. Discovery.
+      category: Brand
+      tags: [Brand, Film, Television, Studio]
+    - term: DC Comics
+      definition: >-
+        Comic book publisher and entertainment brand featuring Superman, Batman,
+        Wonder Woman, and other iconic characters. Part of Time Warner and
+        Warner Bros. franchise.
+      category: Brand
+      tags: [Brand, Comics, Franchise]
+    - term: Streaming
+      definition: >-
+        Delivery of media content over the internet without requiring downloading.
+        Time Warner's streaming services evolved into HBO Max, now rebranded as
+        Max under Warner Bros. Discovery.
+      category: Technology
+      tags: [Streaming, Technology, Digital]
+    - term: Content Rating
+      definition: >-
+        Standardized classification of media content by suitability for audiences
+        (e.g., TV-Y, TV-G, TV-PG, TV-14, TV-MA, G, PG, PG-13, R).
+      category: Classification
+      tags: [Content, Rating, Classification]
+    - term: Premium Cable
+      definition: >-
+        Subscription-based television channels offering premium programming
+        without advertising. HBO is the flagship premium cable channel in
+        the Time Warner portfolio.
+      category: Distribution
+      tags: [Television, Distribution, Subscription]
+    - term: Franchise
+      definition: >-
+        A series of related media properties built around characters, stories, or
+        brands. Examples: DC Universe, Harry Potter (Warner Bros.).
+      category: Products
+      tags: [Entertainment, Franchise, IP]
+    - term: Linear Television
+      definition: >-
+        Scheduled broadcast television programming, as opposed to on-demand or
+        streaming. Includes cable channels like CNN, TNT, and TBS.
+      category: Distribution
+      tags: [Television, Distribution]
+    - term: Over-the-Top
+      definition: >-
+        Delivery of media content directly to viewers over the internet,
+        bypassing traditional cable or satellite. HBO Max (now Max) is
+        Time Warner's OTT successor service.
+      category: Technology
+      tags: [Streaming, OTT, Technology]

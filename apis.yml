@@ -62,3 +62,5 @@ common:
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
+x-parent: warner-bros-discovery
+x-relationship: acquisition

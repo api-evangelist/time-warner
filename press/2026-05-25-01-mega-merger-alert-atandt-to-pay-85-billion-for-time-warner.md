@@ -1,7 +1,9 @@
 ---
 title: 'Mega merger alert: AT&T to pay $85 billion for Time Warner'
 url: https://mashable.com/article/att-time-warner-deal-80-billion
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Time Warner" press release artificial intelligence'
 position: 1
 source: serpapi-google

@@ -1,7 +1,9 @@
 ---
 title: Media Consolidation — News & Updates from Open MIC
 url: https://www.openmic.org/news/category/Media+Consolidation
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Time Warner Cable" press release artificial intelligence'
 position: 2
 source: serpapi-google

@@ -1,7 +1,9 @@
 ---
 title: Trullion Newsroom | Press Releases & Company Updates
 url: https://trullion.com/newsroom/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Time Warner Cable" press release artificial intelligence'
 position: 4
 source: serpapi-google

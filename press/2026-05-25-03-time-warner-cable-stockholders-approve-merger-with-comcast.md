@@ -1,7 +1,9 @@
 ---
 title: Time Warner Cable Stockholders Approve Merger With Comcast
 url: https://www.worktruckonline.com/125881/time-warner-cable-stockholders-approve-merger-with-comcast
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Time Warner Cable" press release artificial intelligence'
 position: 3
 source: serpapi-google

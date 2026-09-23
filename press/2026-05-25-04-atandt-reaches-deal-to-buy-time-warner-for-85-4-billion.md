@@ -1,7 +1,9 @@
 ---
 title: AT&T Reaches Deal to Buy Time Warner for $85.4 Billion
 url: https://www.wsj.com/articles/at-t-reaches-deal-to-buy-time-warner-for-more-than-80-billion-1477157084
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Time Warner" press release artificial intelligence'
 position: 4
 source: serpapi-google

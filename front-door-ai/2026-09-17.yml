@@ -11,9 +11,13 @@ front_door_ai:
   owner: null
   shares_host_with:
   - discovery-communications
+  - warner-bros-discovery
   inherited_from: null
+  alias_of: null
   verdict: scored
   score: null
+  band: null
+  band_label: null
   host_score: 2
   density: null
   words: 509

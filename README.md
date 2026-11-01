@@ -64,63 +64,109 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Time Warner was a Fortune 500 American multinational mass media and entertainment conglomerate, one of the largest media companies in the world until its acquisition by AT&T in 2018. It operated major brands including HBO, CNN, Turner Broadcasting, Warner Bros., and DC Comics. After the AT&T acquisition it was rebranded as WarnerMedia. In 2022, WarnerMedia merged with Discovery Inc. to form Warner Bros. Discovery.
+Time Warner was a Fortune 500 American multinational mass media and entertainment conglomerate, one of the largest media companies in the world until its acquisition by AT&T in 2018. It operated major brands including HBO, CNN, Turner Broadcasting, Warner Bros., and DC Comics. After the AT&T acquisition it was rebranded as WarnerMedia. In 2022, WarnerMedia merged with Discovery Inc. to form Warner Bros. Discovery. Time Warner did not offer a public developer API platform.
 
-**Human URL:** https://www.wbd.com/
+**Areas:** Entertainment · Media · Streaming · Television · Fortune 500
 
-**Wikipedia:** https://en.wikipedia.org/wiki/Time_Warner
+## Time Warner on APIs.io
 
-## History
+Everything profiled for Time Warner is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/time-warner/](https://apis.io/providers/time-warner/)** — or go straight to one of the APIs or properties below.
 
-- **1990** — Time Warner formed through merger of Time Inc. and Warner Communications
-- **1996** — Acquired Turner Broadcasting System (CNN, TBS, TNT, Cartoon Network)
-- **2000** — Merged with AOL (largest media merger at the time); AOL-Time Warner; later reversed
-- **2009** — Spun off Time Warner Cable as independent company
-- **2018** — Acquired by AT&T for $108.7 billion; rebranded as WarnerMedia
-- **2022** — Warner Bros. Discovery formed through merger of WarnerMedia and Discovery Inc.
+### Published properties
 
-## Brands
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-- **HBO** — Premium cable and streaming; now part of Max (Warner Bros. Discovery)
-- **CNN** — Cable News Network
-- **Warner Bros.** — Film and television studio
-- **DC Comics** — Comic book and franchise properties
-- **Turner Broadcasting** — TBS, TNT, TruTV, Cartoon Network, Turner Classic Movies
+#### JSON Schema (1)
 
-## Schemas
+The data models the API reads and writes.
 
-| Schema | Description |
+- [Time Warner Media Asset](https://apis.io/schemas/time-warner/time-warner-media-asset/)
+
+#### JSON Structure (1)
+
+Data models expressed in JSON Structure.
+
+- [Time Warner Media Asset Structure](https://apis.io/json-structure/time-warner/time-warner-media-asset-structure/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Time Warner Context](https://apis.io/jsonld/time-warner/time-warner-context/)
+
+#### Vocabulary (1)
+
+The provider's domain terms, defined.
+
+- [Time Warner Vocabulary](https://apis.io/vocabularies/time-warner/time-warner-vocabulary/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Time Warner — jsonschema rules](https://apis.io/rules/time-warner/time-warner-jsonschema-spectral-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Time Warner Domain Security](https://apis.io/security/time-warner/time-warner-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.wbd.com/)
+
+## API Evangelist rating
+
+**Kin Score 8.1** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
 |---|---|
-| [time-warner-media-asset-schema.json](json-schema/time-warner-media-asset-schema.json) | JSON Schema for Time Warner media properties |
+| Discoverability | 49.1 |
+| Contract quality | 10.7 |
+| Contract governance | 9.8 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 0.0 |
 
-## Structures
+**Agent readiness 0.0** — human-only
 
-| Structure | Description |
+| Agent-readiness dimension | Result |
 |---|---|
-| [time-warner-media-asset-structure.json](json-structure/time-warner-media-asset-structure.json) | Media asset field structure |
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-## JSON-LD
+**Regulatory alignment 10.8** — Horizontal (data, software, accessibility, platform)
 
-| Context | Description |
-|---|---|
-| [time-warner-context.jsonld](json-ld/time-warner-context.jsonld) | JSON-LD context mapping Time Warner concepts to schema.org |
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/time-warner/](https://apis.io/providers/time-warner/).
 
-## Vocabulary
+## How this profile is made
 
-| Vocabulary | Description |
-|---|---|
-| [time-warner-vocabulary.yml](vocabulary/time-warner-vocabulary.yml) | Time Warner media and entertainment vocabulary |
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-## Common Properties
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Time Warner: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-- **Successor Website:** https://www.wbd.com/
-- **Wikipedia:** https://en.wikipedia.org/wiki/Time_Warner
-- **Fortune 500:** Yes (formerly)
+## Open an issue
 
-## Notes
-
-Time Warner Inc. did not offer a public developer API platform. This repository documents the company's media portfolio structure and vocabulary for reference. For current streaming and media APIs, see Warner Bros. Discovery developer resources.
-
-## Maintainers
-
-**Kin Lane** (kin@apievangelist.com)
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/time-warner/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
